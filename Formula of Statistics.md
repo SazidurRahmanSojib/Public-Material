@@ -1,5 +1,4 @@
 # Formula Of Statistics  
-<br><br>
 ## Formula:  
 #### Basic: Central Tendency (Mean, Median, Mode) and Measure of Dispersion (Range, Variance, Standard deviation, Mean deviation, Quartile deviation)  
 
