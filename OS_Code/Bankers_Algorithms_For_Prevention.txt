@@ -1,0 +1,91 @@
+example Input
+Let's consider a system with 5 processes (P 
+0
+​
+  to P 
+4
+​
+ ) and 3 resource types (A, B, C).
+
+1. Available Resources
+
+Instances of A: 3
+
+Instances of B: 3
+
+Instances of C: 2
+
+Input: 3 3 2
+
+2. Maximum Resources
+
+P 
+0
+​
+  needs a max of 7 of A, 5 of B, 3 of C.
+
+P 
+1
+​
+  needs a max of 3 of A, 2 of B, 2 of C.
+
+P 
+2
+​
+  needs a max of 9 of A, 0 of B, 2 of C.
+
+P 
+3
+​
+  needs a max of 2 of A, 2 of B, 2 of C.
+
+P 
+4
+​
+  needs a max of 4 of A, 3 of B, 3 of C.
+
+Input:
+7 5 3
+3 2 2
+9 0 2
+2 2 2
+4 3 3
+
+3. Allocated Resources
+
+P 
+0
+​
+  has 0 of A, 1 of B, 0 of C.
+
+P 
+1
+​
+  has 2 of A, 0 of B, 0 of C.
+
+P 
+2
+​
+  has 3 of A, 0 of B, 2 of C.
+
+P 
+3
+​
+  has 2 of A, 1 of B, 1 of C.
+
+P 
+4
+​
+  has 0 of A, 0 of B, 2 of C.
+
+Input:
+0 1 0
+2 0 0
+3 0 2
+2 1 1
+0 0 2
+
+Expected Output
+Given this input, the program should determine that the system is in a safe state and provide a safe sequence.
+
+A possible safe sequence is: P1 -> P3 -> P4 -> P0 -> P2.
